@@ -1,14 +1,12 @@
 ---
 layout: page
-title: About
+title: About 3SMI
 permalink: /about/
 feature-img: "assets/img/pexels/travel.jpeg"
 tags: [Page]
 ---
 
-Type on Strap is based on Type Theme, a free and open-source theme for [Jekyll](http://jekyllrb.com/), licensed under the MIT License.
+The mission of 3-D sensing, modeling, and data intelligence Lab is to explore and improve the advanced sensing technology of broad earth landcover, ranging from forests to urban area, to deepen the human's understanding of the planet and ecosystem. This involves three aspects: 1) high-fidelty modeling 3-D achitecture of complex landsurface; 2) realistic simulation of radiant mechanism with 3-D Transfer Radiation Model; 3) Guidance on Earth Observation mission and improvement on data interpretation.
 
-Head over to the [theme's documentation](https://github.com/sylhare/Type-on-Strap) for much more information about Type on Strap or to install this theme on your own Jekyll site.
-
-This file is an example of a page in Jekyll, that automatically shows up in the header navigation, you can delete or modify this file freely.
+We are looking for self-motivated postgraduate students and postdocs to join our team. Please contact Dr. Yin for more information.
  
