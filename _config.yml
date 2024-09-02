@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
-baseurl: "/Type-on-Strap"
-url: "https://zhoucailin.github.io/yinlab"
+baseurl: "/yinlab"
+url: "https://zhoucailin.github.io"
 
 # THEME-SPECIFIC CONFIGURATION
 title: 3MSI                                    # site's title
