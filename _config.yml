@@ -6,7 +6,7 @@ url: "https://zhoucailin.github.io"
 title: 3MSI Lab                                    # site's title
 description: "3-D Modeling, Sensing and Data Intelligence"      # used by search engines
 avatar: assets/img/triangle.png                         # Empty for no avatar in navbar
-favicon: assets/favicon.ico                             # Icon displayed in the tab
+favicon: assets/img/triangle.png                             # Icon displayed in the tab
 
 # Header and footer text
 header_text: 3-D Modeling, Sensing and Data Intelligence Lab  # Change Blog header text
