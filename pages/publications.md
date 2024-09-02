@@ -1,7 +1,6 @@
 ---
-layout: post
+layout: page
 title: Publications
-tags: [Test, Ipsum, Markdown, Portfolio]
 ---
 
 
