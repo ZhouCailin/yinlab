@@ -1,6 +1,7 @@
 ---
 layout: page
-title: About 3SMI
+title: About 3MSI
+subtitle: Our mission and vision 
 permalink: /about/
 feature-img: "assets/img/pexels/travel.jpeg"
 tags: [Page]
