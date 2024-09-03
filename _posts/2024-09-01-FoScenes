@@ -1,0 +1,8 @@
+---
+layout: post
+title: "[Releases] FoScenes: A Large-scale and High-fidelty 3-D voxel-based Forest Scenes Dataset Derived From Open-Access Airborne Lidar Data"
+---
+
+The preliminary version of FoScenes releases 43 seamless scenes over 29 selected sites of various forest types and observation time, with the area ranging from 50 to about 11,000 hectares, using ALS data acquired by NASA Goddard's LiDAR, Hyperspectral & Thermal Imager (G-LiHT).
+
+For details, please refer (here)["https://zhoucailin.github.io/yinlab/pages/release.html"]
