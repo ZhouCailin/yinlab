@@ -1,7 +1,6 @@
 ---
 layout: post
-title: "[RSE Accepted] Forest DSM from Spaceborne Stereogrammetry"
+title: "[RSE Published] Forest Canopy Surface Model from Spaceborne Stereogrammetry - Methods, Comparisions and Optimization"
 ---
 
-
-Dr.YIN's two papers on modeling forest canopy surface retrievals from spaceborne stereogrammetry are published in RSE.
+Dr. YIN’s two papers on modeling forest canopy surface retrievals from spaceborne stereogrammetry are published in RSE: [Modeling forest canopy surface retrievals using very high-resolution spaceborne stereogrammetry: (I) methods and comparisons with actual data](https://www.sciencedirect.com/science/article/pii/S0034425723003760#s0005) and [https://www.sciencedirect.com/science/article/pii/S0034425723003759](https://www.sciencedirect.com/science/article/pii/S0034425723003759). Bridging photogrammetry with 3-D ridiative transfer simulation, this study demonstrates our great potential in providing a benchmark for stereo processing algorithms and valuable guidance for future very-high-resolution (VHR) satellite acquisition.
