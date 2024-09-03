@@ -13,7 +13,7 @@ header_text: 3-D Modeling, Sensing and Data Intelligence Lab  # Change Blog head
 header_feature_image: assets/img/header/triangular.jpeg
 header_feature_image_responsive: true
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
+  ©2024 3MSI LAB. All rights reserved.
 
 # Blog
 excerpt: true                                          # Or "truncate" (first 250 characters), "false" to disable
