@@ -6,15 +6,15 @@ calendly:
 dribbble:
 facebook:
 flickr:
-github: sylhare
+github: "https://github.com/ZhouCailin"
 gitlab:
-google-scholar:   # e.g. "WXAAOb0AAAAJ"
+google-scholar: "j1wvcLgAAAAJ"   # e.g. "WXAAOb0AAAAJ"
 instagram:
 hacker-news:
 keybase:
 linkedin:
-mail:             # e.g. "sam@mail.com"
-map:              # e.g. "34.0886/-118.3191"
+mail: "tiangang.yin@polyu.edu.hk"             # e.g. "sam@mail.com"
+map: "22.3067/114.1792"             # e.g. "34.0886/-118.3191"
 mastodon:         # e.g. "fostodon.org/@sam"
 matrix:           # e.g. "@sam:matrix.org"
 medium:
