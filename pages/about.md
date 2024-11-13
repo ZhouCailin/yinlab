@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About 3MSI
+title: About
 subtitle: Our mission and vision 
 permalink: /about/
 feature-img: "assets/img/pexels/travel.jpeg"
