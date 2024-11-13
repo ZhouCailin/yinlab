@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
-baseurl: "/yinlab"
-url: "https://zhoucailin.github.io"
+# baseurl: "/yinlab"
+url: "https://www.3msi.net"
 
 # THEME-SPECIFIC CONFIGURATION
 title: 3MSI Lab                                    # site's title
