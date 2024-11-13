@@ -4,6 +4,7 @@ title: "FoScenes"
 subtitle: "Large-scale forest 3D Plant Area Density products derived from open-access airborne lidar data"
 feature-img: "assets/img/pexels/computer.jpeg"
 permalink: /foscenes
+hide: True
 ---
 
 # FoScenes V1
