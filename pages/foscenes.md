@@ -2,7 +2,7 @@
 layout: page
 title: "FoScenes"
 subtitle: "Large-scale forest 3D Plant Area Density products derived from open-access airborne lidar data"
-feature-img: "assets/img/pexels/computer.jpeg"
+# feature-img: "assets/img/pexels/computer.jpeg"
 permalink: /foscenes
 hide: False
 hide_title: True
@@ -14,7 +14,15 @@ hide_title: True
 
 The preliminary version of FoScenes releases 40 seamless scenes over 28 diverse sites, with individual area ranging from 50 to about 11,000 hectares, using ALS data acquired by NASA Goddard’s LiDAR, Hyperspectral & Thermal Imager [(G-LiHT)](https://glihtdata.gsfc.nasa.gov/).
 
+### Sites map
+
+From the tropical rainforests in Puerto Rico to the broadleaf-needleleaf mixed forests in Northeast US, FoScenes provides realistc representations across major forest biomes in North America.
+
 ![FoScenes Sites](/assets/img/Figure_1.jpg "FoScenes Sites")
+
+### A Sample
+
+The largest scene (about 11,500 ha) is for the WLEF site located 24 km west of Park Falls, Wisconsin, in the Chequamegon Nicolet National Forest.
 
 ![WLEF](/assets/img/Figure_5.png "WLEF")
 
@@ -41,4 +49,4 @@ For inquiries regarding FoScenes, please reach out to [Cailin](mailto:cailinzhou
 
 
 
-We are open to cocollaborations in various forms. Please contact the PI [Dr.YIN](https://www.polyu.edu.hk/lsgi/people/academic-staff/prof-yin-tiangang/) for futher details.
+We are open to collaborations in various forms. Please contact [Dr.YIN](https://www.polyu.edu.hk/lsgi/people/academic-staff/prof-yin-tiangang/) for futher details.
