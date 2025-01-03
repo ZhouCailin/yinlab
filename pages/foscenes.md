@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "FoScenes"
-subtitle: "Large-scale forest 3D Plant Area Density products derived from open-access airborne lidar data"
+# title: "FoScenes"
+# subtitle: "Large-scale forest 3D Plant Area Density products derived from open-access airborne lidar data"
 # feature-img: "assets/img/pexels/computer.jpeg"
 permalink: /foscenes
 hide: False
