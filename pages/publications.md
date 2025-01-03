@@ -1,7 +1,7 @@
 ---
 layout: page
-# title: Publications
-# feature-img: "assets/img/feature-img/circuit.jpeg"
+title: Publications
+feature-img: "assets/img/feature-img/circuit.jpeg"
 ---
 
 
