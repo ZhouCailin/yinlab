@@ -2,11 +2,15 @@
 layout: page
 title: About
 subtitle: Our mission and vision 
-permalink: /about/
+permalink: /about
 feature-img: "assets/img/pexels/travel.jpeg"
 ---
 
-The mission of 3-D sensing, modeling, and data intelligence Lab is to explore and improve the advanced sensing technology of broad earth landcover, ranging from forests to urban area, to deepen the human's understanding of the planet and ecosystem. This involves three aspects: 1) high-fidelty modeling 3-D achitecture of complex landsurface; 2) realistic simulation of radiant mechanism with 3-D Transfer Radiation Model; 3) Guidance on Earth Observation mission and improvement on data interpretation.
+### Mission
+The 3MSI Lab is dedicated to advancing cutting-edge sensing technologies for comprehensive monitoring and understanding of terrestrial vegetation and broader landcover—from dense forests to urban landscapes. By integrating high-fidelity 3D modeling, realistic radiative transfer simulations, and multi-source remote sensing data, we aim to accurately capture the critical biophysical and biochemical properties that shape our planet’s ecosystems. Through this work, we seek to empower applications in carbon cycling, biodiversity conservation, and disturbance monitoring, ultimately guiding Earth Observation missions and improving data interpretation to support a more sustainable future.
 
-We are looking for self-motivated postgraduate students and postdocs to join our team. Please contact Dr. Yin for more information.
+
+### Vision
+Our vision is to establish a global framework of innovative 3D remote sensing and radiative transfer technologies that illuminates the complex interplay between natural and built environments. By refining large-scale vegetation monitoring and environmental sensing capabilities, we aim to equip scientists, policymakers, and the public with powerful tools to address pressing ecological and climatic challenges. Through these collaborative efforts, we aspire to ignite a shared commitment to safeguarding Earth’s environment and promoting the resilience of its ecosystems—paving the way for an intelligent, sustainable future.
+
  
