@@ -8,7 +8,7 @@ permalink: /people/
 
 ### Dr. Tiangang YIN
 *Principal Investigator of 3MSI*
-* Assitance Professor, The Hongkong Polytechnic University
+* Assistant Professor, The Hongkong Polytechnic University
 * Personal website: <https://www.polyu.edu.hk/lsgi/people/academic-staff/prof-yin-tiangang/>
 * Google scholar: <https://scholar.google.hk/citations?user=j1wvcLgAAAAJ>
 
