@@ -50,6 +50,7 @@ Submission portal: [https://meetmatt-svr.net/Account/Login](https://meetmatt-svr
 \
 Submission guideline: [https://www.asiaoceania.org/aogs2025/public.asp?page=submissions.asp#hts](https://www.asiaoceania.org/aogs2025/public.asp?page=submissions.asp#hts) -->
 
+![AOGS](/assets/img/AOGS2025%20WEB%20DESIGN-03.png "AOGS")
 
 # [征稿邀请] 第22届亚洲大洋洲地球科学学会年会(AOGS 2025) - BG18 分会场
 
