@@ -2,7 +2,7 @@
 layout: page
 # title: "FoScenes"
 # subtitle: "Large-scale forest 3D Plant Area Density products derived from open-access airborne lidar data"
-feature-img: "assets/img/darthk.png"
+feature-img: "assets/img/darhk.png"
 permalink: /darthk
 hide: True
 hide_title: True
