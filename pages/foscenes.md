@@ -16,7 +16,7 @@ The preliminary version of FoScenes releases 40 seamless scenes over 28 diverse 
 
 ### Paper
 
-Zhou, C., Yin, T., Wei, S., Cook, B.D., Tan, W., Yan, W.Y., Chen, Q., Gastellu-Etchegorry, J.-P., 2026. FoScenes: A high-fidelity, large-scale 3D forest plant area density product derived from open-access airborne lidar data. Remote Sens. Environ. 333, 115150. https://doi.org/10.1016/j.rse.2025.115150
+Zhou, C., Yin, T., Wei, S., Cook, B.D., Tan, W., Yan, W.Y., Chen, Q., Gastellu-Etchegorry, J.-P., 2026. FoScenes: A high-fidelity, large-scale 3D forest plant area density product derived from open-access airborne lidar data. Remote Sens. Environ. 333, 115150. <https://doi.org/10.1016/j.rse.2025.115150>
 
 ### Sites map
 
