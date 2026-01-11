@@ -14,57 +14,84 @@ hide_title: True
 
 The preliminary version of FoScenes releases 40 seamless scenes over 28 diverse sites, with individual area ranging from 50 to about 11,000 hectares, using ALS data acquired by NASA Goddard’s LiDAR, Hyperspectral & Thermal Imager [(G-LiHT)](https://glihtdata.gsfc.nasa.gov/).
 
+# NEWS 
+## [v2.0] - 2026-01-10
+- Add **Incompletely Explored** voxels to scenes for more accurate representation, without affecting PAI.
+
+- `vox_pad.txt` is now the only released vox PAD file 
+(previously named `vox_pad_coord.txt` or `real_vox_pad_coord.txt`).
+
+- `dtm_dart.txt` and `vox_pad_ind.txt` are no longer included in the data release. These files can be generated via the updated `clip.py`
+  (see the following *Use FoScenes in DART* section).
+
+## [v1.0] - 2025-01-08
+- Initial release.
+
 ### Paper
+
+![FoScenes Sites](/assets/img/foweb.png "FoScenes Sites")
 
 Zhou, C., Yin, T., Wei, S., Cook, B.D., Tan, W., Yan, W.Y., Chen, Q., Gastellu-Etchegorry, J.-P., 2026. FoScenes: A high-fidelity, large-scale 3D forest plant area density product derived from open-access airborne lidar data. Remote Sens. Environ. 333, 115150. <https://doi.org/10.1016/j.rse.2025.115150>
 
-### Sites map
-
-From the tropical rainforests in Puerto Rico to the broadleaf-needleleaf mixed forests in Northeast US, FoScenes provides realistc representations across major forest biomes in North America.
-
-![FoScenes Sites](/assets/img/Figure_1.jpg "FoScenes Sites")
-
-### A Sample
-
-The largest scene (about 11,500 ha) is for the WLEF site located 24 km west of Park Falls, Wisconsin, in the Chequamegon Nicolet National Forest.
-
-![WLEF](/assets/img/wlef_v3.jpg "WLEF")
 
 ## Download
-[Google Drive](https://drive.google.com/drive/folders/1MO6odlAwKpRAWvHlDw8XkZ8CHGD_FJK4?usp=drive_link)
+- [Data in Google Drive](https://drive.google.com/drive/folders/1hHOTD3q9l3F3n_Ft-4JbpavJbWs1HMLd?usp=sharing)
 
+- [Tools in Google Drive](https://drive.google.com/drive/folders/1bZ2u3NTwQxyV7xGP2b72Zh2y50q1qFki?usp=sharing)
 
-## Description
-### 3D space
-Defined a 3D space by the projection, minimum borders and sizes.
-- proj.txt: Well-known text (WKT) string of the projection system.
-- bord_size.txt: [*Min_UTM_X, Min_UTM_Y, Elev_Lowest, Size_Of_X, Size_Of_Y, Size_Of_Z*]. 
+## Data Description
 
-All in meter. Elevation is based on EGM96 geoid.
+### 1. 3D Space
+The 3D voxel space is defined by the projection system, minimum borders, and spatial extents.
 
-### Voxel files
-Each row records **the index in 3D voxelized space** or **center coordinate** of a voxel, with its PAD.
-- vox_pad_ind.txt: [*x_index, y_index, z_index, PAD*] 
-- vox_pad_coord.txt: [*x, y, z, PAD*]
+- `proj.txt`: Well-known text (WKT) string of the projection system.
+- `bord_size.txt`:  
+  [*Min_UTM_X, Min_UTM_Y, Elev_Lowest, Size_Of_X, Size_Of_Y, Size_Of_Z*]
 
-### DTM
-The terrain point cloud generated from 1-m DTM grid.
+All values are in meters. Elevation is referenced to the EGM96 geoid.
 
-- dtm_cloud.txt: [*x, y, z*]
-- dtm_dart.txt: [*col, row, z*] in DART coordinate system (image coordinate system).
+---
 
-### PAI map
-- Geotiff file: PAI (plant area index) maps by vertical integration, can be used for quality control. (Good quality: LAI>0, Non-vegetated: LAI=0, Insufficient lidar sampled: LAI=-1)
+### 2. Voxel Plant Area Density (PAD) Files
+Each row records either the **voxel center coordinates** or the **voxel indices** in the 3D voxelized space, together with its PAD value.
+
+- `vox_pad.txt`: [*x, y, z, PAD*]
+- `vox_pad_ind.txt`: [*i, j, k, PAD*]
+- `vox_pad_coord.txt`: [*x, y, z, PAD*]
+
+---
+
+### 3. Digital Terrain Model (DTM)
+The terrain point cloud is generated from a 1-m resolution DTM grid, provided in either the UTM coordinate system or the DART image coordinate system.
+
+- `dtm_cloud.txt`: [*x, y, z*]
+- `dtm_dart.txt`: [*col, row, z*]
+
+---
+
+### 4. Plant Area Index (PAI) Map
+- GeoTIFF files: Plant Area Index (PAI) maps derived by vertical integration of PAD, primarily used for quality control.
+
+  - Vegetated pixels: LAI > 0  
+  - Non-vegetated pixels: LAI = 0  
+  - Insufficient LiDAR sampling: LAI = −1
+
 
 ## Use FoScenes in DART
-FoScenes can be easily used in [DART](https://dart.omp.eu/) for various simulation with DAO tools 
-([DAO python scripts](https://drive.google.com/drive/folders/1LwEC1xPIfSWLTACyEBj2goRh0qzAHd5H?usp=drive_link)).
+1. Download `clip.py` and `DARTDAO` from [Tools in Google Drive](https://drive.google.com/drive/folders/1bZ2u3NTwQxyV7xGP2b72Zh2y50q1qFki?usp=sharing).
+2. Run `clip.py`
+```python
+python3 clip.py  --base /FoScenes/SERC_Jun2012/  --out /FoScenes/SERC_Jun2012/aoi/ --vs 2 --minxy 364600 4305700 --sizexy 100 100
+```
+3. Create a base DART simulation of DART
+4. Configure parameters and run scripts of DARTDAO (FT/Lux).
 
+## Contact & Collaboration
 
-## Contact
+We welcome collaborations in various forms. If you have your own lidar data and are interested in forest structure reconstruction on your sites, please feel free to reach out.
 
-For inquiries regarding FoScenes, please reach out to [Cailin](mailto:cailinzhou.polyu@gmail.com).
+For general inquiries regarding FoScenes, please contact  
+**Cailin**: [cailinzhou.polyu@gmail.com](mailto:cailinzhou.polyu@gmail.com)
 
-
-
-We are open to collaborations in various forms. Please contact [Dr.YIN](https://www.polyu.edu.hk/lsgi/people/academic-staff/prof-yin-tiangang/) for futher details.
+For collaboration opportunities and further details, please contact  
+**Tiangang**: [tiangang.yin@polyu.edu.hk](mailto:tiangang.yin@polyu.edu.hk)
