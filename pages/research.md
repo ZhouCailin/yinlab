@@ -27,7 +27,7 @@ The physical structure of canopy, characterized as the three-dimensional (3D) di
 
 ![PVlad](/assets/img/pvlad.jpg "PVlad")
 
-**Zhou, C., Yin, T.**, Wei, S., Cook, B.D., Tan, W., Yan, W.Y., Chen, Q., Gastellu-Etchegorry, J.-P., 2026. FoScenes: A high-fidelity, large-scale 3D forest plant area density product derived from open-access airborne lidar data. Remote Sens. Environ. 333, 115150. [[Access paper]](https://doi.org/10.1016/j.rse.2025.115150)
+**Zhou, C., Yin, T.**, Wei, S., Cook, B.D., Tan, W., Yan, W.Y., Chen, Q., Gastellu-Etchegorry, J.-P., 2026. FoScenes: A high-fidelity, large-scale 3D forest plant area density product derived from open-access airborne lidar data. **Remote Sens. Environ.** 333, 115150. [[Access paper]](https://doi.org/10.1016/j.rse.2025.115150)
 
 ![FoScenes Sites](/assets/img/foweb.png "FoScenes Sites")
 
@@ -36,6 +36,7 @@ The physical structure of canopy, characterized as the three-dimensional (3D) di
 Urban trees are crucial for human well-being, necessitating precise monitoring of metrics like count, leaf area, and health. Manual surveys are inefficient, so LiDAR combined with multisource data enables accurate large-scale and long-term tracking. Our team collected extensive and long-term LiDAR data from hundreds of Hong Kong trees, collaborating with local authorities. We use single-tree point cloud processing—branch and leaf classification, occlusion completion, 3D reconstruction, and biomass/leaf area density estimation—enhanced by deep learning on both empirical and simulated data.
 
 
-![alt text](/assests/img/image.png)
+![urban tree](/assets/img/image.png "Urban")
 
-More Highlights: <https://www.polyu.edu.hk/lsgi/news-and-events/news/2025/0605-prof-tiangang-yin>
+
+**More Highlights: <https://www.polyu.edu.hk/lsgi/news-and-events/news/2025/0605-prof-tiangang-yin>**
