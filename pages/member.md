@@ -6,45 +6,40 @@ feature-img: "assets/img/pexels/search-map.jpeg"
 permalink: /people/
 ---
 
-### Dr. Tiangang YIN
+### Dr. Tiangang YIN [✉️](mailto:tiangang.yin@polyu.edu.hk)
 *Principal Investigator of 3MSI*
-* Assistant Professor, The Hongkong Polytechnic University
+* Assistant Professor, Department of Land Surveying and Geo-Informatics, The Hongkong Polytechnic University
 * [Personal page](https://www.polyu.edu.hk/lsgi/people/academic-staff/prof-tian-gang-yin/)
 * [Google scholar](https://scholar.google.hk/citations?user=j1wvcLgAAAAJ)
 
-### Dr. Shaodong WEI
+### Dr. Shaodong WEI [✉️](mailto:shaodwei@polyu.edu.hk)
 *Postdoc*
-* Research focus: Photogrammetry, Spaceborne lidar
-* [Email](mailto:shaodwei@polyu.edu.hk) ✉️
+- Photogrammetry, DSM Reconstruction, Spaceborne lidar
 
 ### Dr. Ge JIANG
 *Postdoc*
-* Research focus: Lidar
+* Airborne lidar, urban tree reconstruction
 
-### Cailin ZHOU
+### Cailin ZHOU [✉️](mailto:cailin.zhou@connect.polyu.hk)[📧](mailto:cailinzhou.polyu@gmail.com)
 *PhD student*
-* Research focus: Airborne lidar, Forest structure reconstruction
-* [Work Email](mailto:cailin.zhou@connect.polyu.hk) ✉️
-* [Gmail](mailto:cailinzhou.polyu@gmail.com) ✉️
+* Airborne lidar, Forest structure reconstruction
 
-### Weiwei TAN
+### Weiwei TAN [✉️](mailto:weiwei.tan@connect.polyu.hk)
 *PhD student*
-* Research focus: Photogrammetry, Jitter effect
-* [Email](mailto:weiwei.tan@connect.polyu.hk) ✉️
+* Photogrammetry, Jitter effect, DSM Reconstruction
 
-### Qi CHEN (Chee)
+### Qi CHEN (Chee) [✉️](mailto:qi-chee.chen@connect.polyu.hk)
 *PhD student*
-* Research focus: Multi-platform lidar, Urban tree
-* [Email](mailto:qi-chee.chen@connect.polyu.hk) ✉️
+* Multi-platform lidar, Urban tree
 
 ### Fangfang QU
 *PhD student*
-* Research focus: Energy balance, Lidar
+* Energy balance, Lidar
 
 ### Jiaqi QIAN
 *PhD student*
-* Research focus: Differentiable radiative transfer model
+* Differentiable radiative transfer model (DRTM)
 
 ### Jinhong WANG
 *PhD student*
-* Research focus: Lidar
+* Research focus: Lidar point cloud processing

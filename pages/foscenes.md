@@ -117,4 +117,4 @@ For general inquiries regarding FoScenes, please contact
 **Cailin**: [cailinzhou.polyu@gmail.com](mailto:cailinzhou.polyu@gmail.com)
 
 For collaboration opportunities and further details, please contact  
-**Tiangang**: [tiangang.yin@polyu.edu.hk](mailto:tiangang.yin@polyu.edu.hk                                                                       )
+**Tiangang**: [tiangang.yin@polyu.edu.hk](mailto:tiangang.yin@polyu.edu.hk)
