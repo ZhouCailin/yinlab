@@ -15,6 +15,11 @@ hide_title: True
 The preliminary version of FoScenes releases 40 seamless scenes over 28 diverse sites, with individual area ranging from 50 to about 11,000 hectares, using ALS data acquired by NASA Goddard’s LiDAR, Hyperspectral & Thermal Imager [(G-LiHT)](https://glihtdata.gsfc.nasa.gov/).
 
 ### Updates
+#### [In Progress🔧] 
+- A WebGIS-based data center is under development and is expected to go online in Feb 2026.
+It will support interactive scene clipping and the generation of DART simulation files.
+- Import FoScenes into SCOPE/MSCOPE.
+
 #### [v2.0] - 2026-01-10
 - Add **Incompletely Explored** voxels to scenes for more accurate representation, without affecting PAI.
 
@@ -34,7 +39,7 @@ The preliminary version of FoScenes releases 40 seamless scenes over 28 diverse 
 
 > **FoScenes: A high-fidelity, large-scale 3D forest plant area density product derived from open-access airborne lidar data**
 > Zhou, C., Yin, T., Wei, S., Cook, B.D., Tan, W., Yan, W.Y., Chen, Q., Gastellu-Etchegorry, J.-P., 
-> *Remote Sensing of Environment*, 2025.
+> *Remote Sensing of Environment*, 2026.
 
 
 >**Absract:** The accurate three-dimensional (3D) distribution of plant area density (PAD) within forests is crucial for understanding canopy structure and provides essential scene inputs for 3D Radiative Transfer Models (RTMs) to facilitate remote sensing interpretation. However, current lidar-based voxelization methods that estimate detailed PAD distributions often cover limited areas, constraining their applications in conducting broad forest studies and interpreting Earth Observation Satellite (EOS) data of various scales and resolutions. To address this, we developed the Large-Scale Path Volume Leaf Area Density (LS-PVlad), a novel forest 3D reconstruction workflow capable of producing extensive high-resolution 3D voxelized forest scenes (up to 100 km2 with ≤2 m voxel size) from worldwide open-access airborne lidar scanning (ALS) data. By applying LS-PVlad to the ALS data acquired during the extensive NASA Goddard's LiDAR, Hyperspectral & Thermal Imager (G-LiHT) campaigns, we developed the first release of FoScenes—a high-fidelity PAD product comprising 40 seamless scenes from 28 diverse forest sites, with individual area ranging from ∼50 to ∼11,000 ha. The leaf area estimates of LS-PVlad have been validated by two-year field-measured leaf area index (LAI) from litter collection (best RMSE = 0.35 m2/m2) and digital hemispherical photography (DHP) images (RMSE = 0.46 m2/m2) across multiple plots at a deciduous forest site. Additionally, a broad comparison between FoScenes and MODIS plant/leaf area index product demonstrates high consistency (R2 = 0.70, RMSE = 0.86 m2/m2). By providing multi-dimensional forest characterizations, FoScenes enables temporal insights into structure dynamics. Its integration with the discrete anisotropic radiative transfer (DART) model underscores the potential of FoScenes for extensive 3D RTM applications at various scales.
@@ -45,7 +50,7 @@ The preliminary version of FoScenes releases 40 seamless scenes over 28 diverse 
 [Google Drive](https://drive.google.com/drive/folders/1hHOTD3q9l3F3n_Ft-4JbpavJbWs1HMLd?usp=sharing)
 
 -  **Tools and DARTDAO**:
-[Tools in Google Drive](https://drive.google.com/drive/folders/1bZ2u3NTwQxyV7xGP2b72Zh2y50q1qFki?usp=sharing)
+[Tools](https://drive.google.com/drive/folders/1bZ2u3NTwQxyV7xGP2b72Zh2y50q1qFki?usp=sharing)
   
 The list of sites is provided in paper [Table of sites](https://www.sciencedirect.com/science/article/pii/S0034425725005541?via%3Dihub#t0005).
 
@@ -88,10 +93,10 @@ The terrain point cloud is generated from a 1-m resolution DTM grid, provided in
 
 
 ### Use FoScenes in DART
-1. Download `clip.py` and `DARTDAO` from [Tools in Google Drive](https://drive.google.com/drive/folders/1bZ2u3NTwQxyV7xGP2b72Zh2y50q1qFki?usp=sharing).
+1. Download `clip.py` and `DARTDAO` from [Tools](https://drive.google.com/drive/folders/1bZ2u3NTwQxyV7xGP2b72Zh2y50q1qFki?usp=sharing).
 2. Run `clip.py`
 ```python
-python3 clip.py  --base /FoScenes/SERC_Jun2012/  --out /FoScenes/SERC_Jun2012/aoi/ --vs 2 --minxy 364600 4305700 --sizexy 100 100
+python clip.py  --base /FoScenes/SERC_Jun2012/  --out /FoScenes/SERC_Jun2012/aoi/ --vs 2 --minxy 364600 4305700 --sizexy 100 100
 ```
 3. Create a base simulation of DART.
 4. Configure parameters and run scripts of DARTDAO (FT/Lux) following `readme.txt`.
