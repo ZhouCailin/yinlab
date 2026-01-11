@@ -41,9 +41,13 @@ The preliminary version of FoScenes releases 40 seamless scenes over 28 diverse 
 
 
 ### Download
-- [Data in Google Drive](https://drive.google.com/drive/folders/1hHOTD3q9l3F3n_Ft-4JbpavJbWs1HMLd?usp=sharing)
+- **FoScenes datasets**:
+[Google Drive](https://drive.google.com/drive/folders/1hHOTD3q9l3F3n_Ft-4JbpavJbWs1HMLd?usp=sharing)
 
-- [Tools in Google Drive](https://drive.google.com/drive/folders/1bZ2u3NTwQxyV7xGP2b72Zh2y50q1qFki?usp=sharing)
+-  **Tools and DARTDAO**:
+[Tools in Google Drive](https://drive.google.com/drive/folders/1bZ2u3NTwQxyV7xGP2b72Zh2y50q1qFki?usp=sharing)
+  
+The list of sites is provided in paper [Table of sites](https://www.sciencedirect.com/science/article/pii/S0034425725005541?via%3Dihub#t0005).
 
 ### Data Description
 
