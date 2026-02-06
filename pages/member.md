@@ -6,40 +6,40 @@ feature-img: "assets/img/pexels/search-map.jpeg"
 permalink: /people/
 ---
 
-### Dr. Tiangang YIN [✉️](mailto:tiangang.yin@polyu.edu.hk)
+### Dr. YIN, Tiangang [✉️](mailto:tiangang.yin@polyu.edu.hk)
 *Principal Investigator of 3MSI*
 * Assistant Professor, Department of Land Surveying and Geo-Informatics, The Hongkong Polytechnic University
 * [Personal page](https://www.polyu.edu.hk/lsgi/people/academic-staff/prof-tian-gang-yin/)
 * [Google scholar](https://scholar.google.hk/citations?user=j1wvcLgAAAAJ)
 
-### Dr. Shaodong WEI [✉️](mailto:shaodwei@polyu.edu.hk)
+### Dr. WEI, Shaodong [✉️](mailto:shaodwei@polyu.edu.hk)
 *Postdoc*
 - Photogrammetry, DSM Reconstruction, Spaceborne lidar
 
-### Dr. Ge JIANG
+### Dr. JIANG, Ge
 *Postdoc*
 * Airborne lidar, urban tree reconstruction
 
-### Cailin ZHOU [✉️](mailto:cailin.zhou@connect.polyu.hk)[📧](mailto:cailinzhou.polyu@gmail.com)
-*PhD student*
+### ZHOU, Cailin [✉️](mailto:cailin.zhou@connect.polyu.hk)[📧](mailto:cailinzhou.polyu@gmail.com)
+*PhD Candidate*
 * Airborne lidar, Forest structure reconstruction
 
-### Weiwei TAN [✉️](mailto:weiwei.tan@connect.polyu.hk)
-*PhD student*
+### TAN, Weiwei [✉️](mailto:weiwei.tan@connect.polyu.hk)
+*PhD Candidate*
 * Photogrammetry, Jitter effect, DSM Reconstruction
 
-### Qi CHEN (Chee) [✉️](mailto:qi-chee.chen@connect.polyu.hk)
-*PhD student*
+### Chen, Qi (Chee) [✉️](mailto:qi-chee.chen@connect.polyu.hk)
+*PhD Candidate*
 * Multi-platform lidar, Urban tree
 
-### Fangfang QU
+### QU, Fangfang
 *PhD student*
 * Energy balance, Lidar
 
-### Jiaqi QIAN
+### QIAN, Jiaqi
 *PhD student*
 * Differentiable radiative transfer model (DRTM)
 
-### Jinhong WANG
+### WANG, Jinhong
 *PhD student*
-* Research focus: Lidar point cloud processing
+* Lidar point cloud processing

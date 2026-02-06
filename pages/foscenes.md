@@ -20,7 +20,9 @@ The preliminary version of FoScenes releases 40 seamless scenes over 28 diverse 
 It will support interactive scene clipping and the generation of DART simulation files.
 - Import FoScenes into SCOPE/MSCOPE.
 
-#### [v2.0] - 2026-01-10
+[v2.1] 2026-01-10 Fix inconsistency between sites and data files.
+
+[v2.0 ] 2026-01-10
 - Add **Incompletely Explored** voxels to scenes for more accurate representation, without affecting PAI.
 
 - `vox_pad.txt` is now the only released vox PAD file 
@@ -29,7 +31,7 @@ It will support interactive scene clipping and the generation of DART simulation
 - `dtm_dart.txt` and `vox_pad_ind.txt` are no longer included in the data release. These files can be generated via the updated `clip.py`
   (see the following *Use FoScenes in DART* section).
 
-#### [v1.0] - 2025-01-08
+[v1.0] 2025-01-08 Initial release
 
 ### Publications
 
@@ -46,8 +48,8 @@ It will support interactive scene clipping and the generation of DART simulation
 
 
 ### Download
-- **FoScenes datasets**:
-[Google Drive](https://drive.google.com/drive/folders/1hHOTD3q9l3F3n_Ft-4JbpavJbWs1HMLd?usp=sharing)
+- **FoScenes datasets [v2.1]**:
+[Google Drive](https://drive.google.com/drive/folders/1fFRmTILZD72mDrzrAL4WHM3_tkHfOQnd?usp=sharing)
 
 -  **Tools and DARTDAO**:
 [Tools](https://drive.google.com/drive/folders/1bZ2u3NTwQxyV7xGP2b72Zh2y50q1qFki?usp=sharing)
