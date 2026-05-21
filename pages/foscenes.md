@@ -12,9 +12,11 @@ hide_title: True
 
 <!-- **A High-Fidelity, Large-Scale 3D Forest Plant Area Density Product Derived From Open-Access Airborne Lidar Data** -->
 
-> **FoScenes: A high-fidelity, large-scale 3D forest plant area density product derived from open-access airborne lidar data**
+<!-- > **FoScenes: A high-fidelity, large-scale 3D forest plant area density product derived from open-access airborne lidar data**
 > Zhou, C., Yin, T., Wei, S., Cook, B.D., Tan, W., Yan, W.Y., Chen, Q., Gastellu-Etchegorry, J.-P., 
-> *Remote Sensing of Environment*, 2026.
+> *Remote Sensing of Environment*, 2026. -->
+
+> Zhou, C., Yin, T., Wei, S., Cook, B. D., Tan, W., Yan, W. Y., ... & Gastellu-Etchegorry, J. P. (2026). FoScenes: A high-fidelity, large-scale 3D forest plant area density product derived from open-access airborne lidar data. *Remote Sensing of Environment*, 333, 115150.
 
 **Access paper**: <https://doi.org/10.1016/j.rse.2025.115150>
 
@@ -27,6 +29,8 @@ The preliminary version of FoScenes releases 40 seamless scenes over 28 diverse 
 - A WebGIS-based data center is under development and is expected to go online in Feb 2026.
 It will support interactive scene clipping and the generation of DART simulation files.
 - Import FoScenes into SCOPE/MSCOPE.
+
+[v2.2] 2025-05-21 Fix inconsistency in delimiter, now 'space' for all data.
 
 [v2.1] 2026-01-10 Fix inconsistency between sites and data files.
 
@@ -56,8 +60,8 @@ It will support interactive scene clipping and the generation of DART simulation
 
 
 ### Download
-- **FoScenes datasets [v2.1]**:
-[Google Drive](https://drive.google.com/drive/folders/1fFRmTILZD72mDrzrAL4WHM3_tkHfOQnd?usp=sharing)
+- **FoScenes datasets [v2.2]**:
+[Google Drive](https://drive.google.com/drive/folders/1nSVK-AbvBKE0Tx32bIpyhj6gediMHpmr?usp=drive_link)
 
 -  **Tools and DARTDAO**:
 [Tools](https://drive.google.com/drive/folders/1bZ2u3NTwQxyV7xGP2b72Zh2y50q1qFki?usp=sharing)
