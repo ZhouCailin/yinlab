@@ -18,6 +18,7 @@ hide_title: True
 
 > Zhou, C., Yin, T., Wei, S., Cook, B. D., Tan, W., Yan, W. Y., ... & Gastellu-Etchegorry, J. P. (2026). FoScenes: A high-fidelity, large-scale 3D forest plant area density product derived from open-access airborne lidar data. *Remote Sensing of Environment*, 333, 115150.
 
+**Data Portal**: <https://foscenes.3msi.net/> \
 **Access paper**: <https://doi.org/10.1016/j.rse.2025.115150>
 
 The preliminary version of FoScenes releases 40 seamless scenes over 28 diverse sites, with individual area ranging from 50 to about 11,000 hectares, using ALS data acquired by NASA Goddard’s LiDAR, Hyperspectral & Thermal Imager [(G-LiHT)](https://glihtdata.gsfc.nasa.gov/).
@@ -25,12 +26,9 @@ The preliminary version of FoScenes releases 40 seamless scenes over 28 diverse 
 ![FoScenes Sites](/assets/img/foweb.png "FoScenes Sites")
 
 ### Updates
-#### [In Progress🔧] 
-- A WebGIS-based data center is under development and is expected to go online in Feb 2026.
-It will support interactive scene clipping and the generation of DART simulation files.
-- Import FoScenes into SCOPE/MSCOPE.
+[News] The data access portal is now online. Download 3D scenes and DART simulation by interactive webpage.
 
-[v2.2] 2025-05-21 Fix inconsistency in delimiter, now 'space' for all data.
+[v2.2] 2026-05-21 Fix inconsistency in delimiter, now 'space' for all data.
 
 [v2.1] 2026-01-10 Fix inconsistency between sites and data files.
 
@@ -60,11 +58,15 @@ It will support interactive scene clipping and the generation of DART simulation
 
 
 ### Download
-- **FoScenes datasets [v2.2]**:
-[Google Drive](https://drive.google.com/drive/folders/1nSVK-AbvBKE0Tx32bIpyhj6gediMHpmr?usp=drive_link)
+<!-- - **FoScenes datasets [v2.2]**:
+[Google Drive](https://drive.google.com/drive/folders/1nSVK-AbvBKE0Tx32bIpyhj6gediMHpmr?usp=drive_link) -->
 
--  **Tools and DARTDAO**:
-[Tools](https://drive.google.com/drive/folders/1bZ2u3NTwQxyV7xGP2b72Zh2y50q1qFki?usp=sharing)
+![portal](/assets/img/fsc-portal.png "FoScenes Sites")
+
+-  **Data Access Portal**: <https://foscenes.3msi.net/>
+
+-  **Tools and DART-DAO**:
+[Google drive](https://drive.google.com/drive/folders/1bZ2u3NTwQxyV7xGP2b72Zh2y50q1qFki?usp=sharing)
   
 The list of sites is provided in paper [Table of sites](https://www.sciencedirect.com/science/article/pii/S0034425725005541?via%3Dihub#t0005).
 
@@ -106,14 +108,14 @@ The terrain point cloud is generated from a 1-m resolution DTM grid, provided in
   - Insufficient LiDAR sampling: LAI = −1
 
 
-### Use FoScenes in DART
+<!-- ### Use FoScenes in DART
 1. Download `clip.py` and `DARTDAO` from [Tools](https://drive.google.com/drive/folders/1bZ2u3NTwQxyV7xGP2b72Zh2y50q1qFki?usp=sharing).
 2. Run `clip.py`
 ```python
 python clip.py  --base /FoScenes/SERC_Jun2012/  --out /FoScenes/SERC_Jun2012/aoi/ --vs 2 --minxy 364600 4305700 --sizexy 100 100
 ```
 3. Create a base simulation of DART.
-4. Configure parameters and run scripts of DARTDAO (FT/Lux) following `readme.txt`.
+4. Configure parameters and run scripts of DARTDAO (FT/Lux) following `readme.txt`. -->
 
 ### Citation
 ```bibtex
